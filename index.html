@@ -1,43 +1,27 @@
-<!DOCTYPE html>
-<html style="background:#d79622 url(./img/back.jpg) no-repeat;background-size: cover;height: 100%;background-position: center center;">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>ziwn</title>
-    <style>
-       html, body{
-            background: #000;
-            height: 100%;
-            width: 100%
-        }
-        #demo{
-            font-family: helvetica;
-            text-transform: uppercase;
-            text-align: center;
-            color: #fefefe;
-            font-size: 100px;
-            text-shadow: #e7e7e7 3px 5px 0, #999 4px 6px 3px, #ccc 8px 11px 10px
-        }
-    </style>
+<meta charset="utf-8">
+<title>ziwn</title>
+<link rel="stylesheet" href="css/player.css">
+<script src="js/player.js"></script>
+<script src="js/player2.js"></script>
 </head>
+
 <body>
-    <div id="demo" style="width: 100%;height: 100%; left: 50%;top: 50%;text-align: center;line-height: 100px">
-        
-    </div>
-    <script>
-        var str = "未来可期，努力ing",i = 0,cal;
-        function demoStr(){
-            if(i < str.length){
-                cal = str.substring(0, i++) + "_";
-                document.getElementById("demo").innerHTML = cal;
-                setTimeout(demoStr,500);
-            }else{
-                document.getElementById("demo").innerHTML = str+"_";　　//相当于清除下划线以及计时器效果
-            }
-        } 
-        demoStr();
-    </script>
+<canvas id="screen"></canvas>
+<div id="textures">
+	<img src="images/caisse_bois_frag3.jpg" alt="">
+	<img src="images/caisse_explosive_f2.jpg" alt="">
+	<img src="images/caisse_export.jpg" alt="">
+	<img src="images/caisse_metal_02.jpg" alt="">
+	<img src="images/caisse_bois_frag3.jpg" alt="">
+	<img src="images/caisse_jurancon_face1.jpg" alt="">
+	<img src="images/caisse_jurancon_face2.jpg" alt="">
+	<img src="images/miam-fruit2.jpg" alt="">
+	<img src="images/caisse_orange_face1.jpg" alt="">
+</div>
+<img id="blade" class="textures" src="images/caisse_coke_f2.jpg" alt=""> 
+
 </body>
-
-
-    <script src="./js/modernizr-2.8.2.js"></script>
 </html>
