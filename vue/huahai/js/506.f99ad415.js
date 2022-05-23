@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmanage"]=self["webpackChunkmanage"]||[]).push([[506],{3506:function(e,n,t){t.r(n),t.d(n,{default:function(){return i}});var a=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{staticClass:"chatIndex"},[t("transition",{attrs:{name:"fade-transform",mode:"out-in"}},[t("router-view")],1)],1)},r=[],u=t(1001),s={},l=(0,u.Z)(s,a,r,!1,null,null,null),i=l.exports}}]);
+//# sourceMappingURL=506.f99ad415.js.map
