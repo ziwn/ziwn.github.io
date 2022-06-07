@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmanage"]=self["webpackChunkmanage"]||[]).push([[964],{18964:function(e,n,u){u.r(n),u.d(n,{default:function(){return c}});var a=function(){var e=this,n=e.$createElement,u=e._self._c||n;return u("div",{},[e._v(" This is customer manage page ")])},t=[],l=u(1001),r={},s=(0,l.Z)(r,a,t,!1,null,null,null),c=s.exports}}]);
+//# sourceMappingURL=964-legacy.496b78cf.js.map

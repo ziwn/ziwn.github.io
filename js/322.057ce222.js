@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmanage"]=self["webpackChunkmanage"]||[]).push([[322],{5728:function(e,n,t){t.r(n),t.d(n,{default:function(){return l}});var a=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{staticClass:"seting"},[t("transition",{attrs:{name:"fade-transform",mode:"out-in"}},[t("router-view")],1)],1)},r=[],s=t(1001),u={},i=(0,s.Z)(u,a,r,!1,null,null,null),l=i.exports}}]);
+//# sourceMappingURL=322.057ce222.js.map
